@@ -11,13 +11,7 @@
 body {
 	font-family: 'Kumbh Sans', sans-serif;
 	font-size: .75rem;
-	line-height: 1.3;
-    padding: 9.25rem 0 5.135rem;
-
-	@include breakpoint-up(xlarge){
-		padding: 8.0625rem 17.5rem;
-	}
-
+	line-height: 1.3; 
 	min-height: 100vh;
 	background: linear-gradient($soft-violet, hsl(255, 75%, 66%));
 }
@@ -34,8 +28,14 @@ p{
 }
 
 #root{
-	margin: 0 auto;
 	@include flex(column,center,center);
+
+	padding: 9.25rem 0 5.135rem;
+
+	@include breakpoint-up(xlarge){
+		padding: 8.0625rem 17.5rem;
+	}
+
 }
 
 .accordion{
@@ -51,8 +51,10 @@ p{
 
 	@include breakpoint-up(xlarge){
 		@include flex(row, center, center);
-		
+		width: 100%;
 		max-width: 920px;
+		min-height: 509px;
+		padding: 0;
 
 	}
 	
