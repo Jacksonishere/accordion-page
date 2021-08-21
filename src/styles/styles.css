@@ -37,6 +37,7 @@ p {
 }
 
 #root {
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -53,9 +54,9 @@ p {
   padding: 9.25rem 0 5.135rem;
 }
 
-@media (min-width: 87.5em) {
+@media (min-width: 64em) {
   #root {
-    padding: 8.0625rem 17.5rem;
+    padding: 0;
   }
 }
 
