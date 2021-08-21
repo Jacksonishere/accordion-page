@@ -1,0 +1,45 @@
+.accordion-item {
+	position: relative;
+	width: 100%;
+	button {
+        // font-size: unquote("min(1vw, .75rem)");
+		width: 100%;
+		padding: 1.1875rem 0;
+		color: $very-dark-grayish-blue;
+		background-color: white;
+		border: none;
+		border-bottom: 1px solid $light-grayish-blue;
+		text-align: inherit;
+	}
+
+	.dropdown-icon {
+		transition: transform 0.2s ease;
+		color: $soft-red;
+		float: right;
+	}
+
+	.content {
+		overflow: hidden;
+		transition: max-height 0.2s ease;
+		max-height: 0;
+
+		p {
+			max-width: 90%;
+			line-height: 1.6;
+			padding-top: 0.8125rem;
+		}
+	}
+
+	&.toggle {
+		button {
+			color: $very-dark-desaturated-blue;
+			font-weight: 700;
+			.dropdown-icon {
+				color: $soft-red;
+				float: right;
+				transform-origin: center;
+				transform: rotate(180deg);
+			}
+		}
+	}
+}

@@ -1,0 +1,7 @@
+.accordion-content{
+    @include flex(column, center, center);
+
+    @include breakpoint-up(xlarge){
+        flex: 50%;
+    }
+}

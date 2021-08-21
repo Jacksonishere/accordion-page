@@ -1,0 +1,19 @@
+.bg {
+	position: relative;
+	@include flex(column, center, center);
+
+    &-hero{
+        position: absolute;
+        top: 0;
+        left: -26px;
+        transform: translateY(-55%);
+    }
+
+	&-blur {
+		// position: relative;
+	}
+
+    @include breakpoint-up(xlarge){
+        flex: 50%;
+    }
+}
