@@ -54,9 +54,9 @@ p {
   padding: 9.25rem 0 5.135rem;
 }
 
-@media (min-width: 64em) {
+@media (min-width: 87.5em) {
   #root {
-    padding: 0;
+    padding: 8.0625rem 0;
   }
 }
 

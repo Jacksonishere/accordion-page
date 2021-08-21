@@ -37,10 +37,8 @@ p{
 
 	padding: 9.25rem 0 5.135rem;
 
-	@include breakpoint-up(large){
-		// padding: 8.0625rem 17.5rem;
-		// padding: 0;
-		padding: 0;
+	@include breakpoint-up(xlarge){
+		padding: 8.0625rem 0;
 	}
 
 }
