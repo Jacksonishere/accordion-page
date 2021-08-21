@@ -1,37 +1,40 @@
 .bg {
 	position: relative;
 	@include flex(column, center, center);
-    
-    &-hero{
-        position: absolute;
-        top: 0;
-        left: -26px;
-        transform: translateY(-55%);
 
-        @include breakpoint-up(xlarge){
-            content: url("../images/illustration-woman-online-desktop.svg");
-            top: 50%;
-            left: -20%;
-            transform: translateY(-50%);
-        }
-    }
+	&-hero {
+		position: absolute;
+		top: 0;
+		left: -26px;
+		transform: translateY(-55%);
 
-	&-blur {
-        @include breakpoint-up(xlarge){
-            position: absolute;
-            content: url("../images/illustration-box-desktop.svg");
-            top: 60%;
-            left: -20%;
-            transform: translateY(-50%);
-        }
+		@include breakpoint-up(large) {
+			content: url("../images/illustration-woman-online-desktop.svg");
+			top: 50%;
+			left: -20%;
+			transform: translateY(-50%);
+		}
 	}
 
-    @include breakpoint-up(xlarge){
-        width: 50%;
-        min-height: inherit;
-        height: 100%;
-        background-image: url("../images/bg-pattern-desktop.svg");
-        background-repeat: no-repeat;
-        background-position: bottom 31% right -11%;
-    }
+	&-blur {
+		@include breakpoint-up(large) {
+			position: absolute;
+			content: url("../images/illustration-box-desktop.svg");
+			top: 60%;
+			left: -20%;
+			transform: translateY(-50%);
+		}
+	}
+
+	@include breakpoint-up(large) {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 50%;
+		min-height: inherit;
+		height: 100%;
+		background-image: url("../images/bg-pattern-desktop.svg");
+		background-repeat: no-repeat;
+		background-position: bottom 31% right -11%;
+	}
 }

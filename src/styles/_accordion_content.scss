@@ -1,7 +1,7 @@
 .accordion-content{
     @include flex(column, center, center);
 
-    @include breakpoint-up(xlarge){
+    @include breakpoint-up(large){
         width: 50%;
         @include flex(column, flex-start, flex-start);
         min-height: inherit;

@@ -2,14 +2,18 @@
 	position: relative;
 	width: 100%;
 	button {
-        // font-size: unquote("min(1vw, .75rem)");
-		width: 100%;
 		padding: 1.1875rem 0;
+		width: 100%;
 		color: $very-dark-grayish-blue;
 		background-color: white;
 		border: none;
 		border-bottom: 1px solid $light-grayish-blue;
 		text-align: inherit;
+		font-family: inherit;
+
+		&:hover {
+			color: $soft-red;
+		}
 	}
 
 	.dropdown-icon {
