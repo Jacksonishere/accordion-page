@@ -1,11 +1,17 @@
 import React from "react";
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 
 import { FaChevronDown } from "react-icons/fa";
 
-const AccordionItem = ({ title, content }) => {
+const AccordionItem = ({ title, content, hidden}) => {
 	const contentRef = useRef();
 	const [toggle, setToggle] = useState(false);
+
+	useEffect( () => {
+		if(hidden !== undefined){
+			setToggle(true);
+		}
+	}, [])
 
 	return (
 		<div

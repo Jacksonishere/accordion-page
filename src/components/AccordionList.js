@@ -11,6 +11,7 @@ const AccordionList = () => {
 			<AccordionItem
 				title="What is the maximum file upload size?"
 				content="No more than 2GB. All files in your account must fit your allotted storage space."
+                hidden="true"
 			/>
 			<AccordionItem
 				title="How do I reset my password?"
