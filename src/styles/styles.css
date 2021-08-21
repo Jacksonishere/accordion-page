@@ -10,8 +10,8 @@
 
 /** BASE **/
 body {
-  font-family: 'Kumbh Sans', sans-serif;
-  font-size: .75rem;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 0.75rem;
   line-height: 1.3;
   min-height: 100vh;
   background: -webkit-gradient(linear, left top, left bottom, from(#af67e9), to(#8867e9));
@@ -51,7 +51,12 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 9.25rem 0 5.135rem;
+}
+
+@media (max-width: 47.9375em) {
+  #root {
+    padding: 9.25rem 0 5.135rem;
+  }
 }
 
 @media (min-width: 87.5em) {
