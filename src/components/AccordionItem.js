@@ -11,7 +11,7 @@ const AccordionItem = ({ title, content, hidden}) => {
 		if(hidden !== undefined){
 			setToggle(true);
 		}
-	}, [])
+	}, [hidden])
 
 	return (
 		<div
