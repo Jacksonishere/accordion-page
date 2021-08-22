@@ -212,6 +212,7 @@ p {
 .accordion-item {
   position: relative;
   width: 100%;
+  border-bottom: 1px solid #e7e7e9;
 }
 
 .accordion-item button {
@@ -220,7 +221,6 @@ p {
   color: #4a4b5e;
   background-color: white;
   border: none;
-  border-bottom: 1px solid #e7e7e9;
   text-align: inherit;
   font-family: inherit;
 }
@@ -248,7 +248,7 @@ p {
 .accordion-item .content p {
   max-width: 90%;
   line-height: 1.6;
-  padding-top: 0.8125rem;
+  padding-bottom: 0.8125rem;
 }
 
 .accordion-item.toggle button {
