@@ -17,14 +17,14 @@
 	}
     
 	.dropdown-icon {
-        transition: transform 0.2s ease;
+        // transition: transform 0.2s ease;
 		color: $soft-red;
 		float: right;
 	}
 
 	.content {
 		overflow: hidden;
-		transition: max-height 0.2s ease;
+		// transition: max-height 0.2s ease;
 		max-height: 0;
 
 		p {
