@@ -42,10 +42,6 @@ p {
 	@include breakpoint-up(medium) {
 		padding: 9.0625rem 0 8.0625rem;
 	}
-
-	@include breakpoint-up(large){
-		padding: 0 0 0 0;
-	}
 }
 
 .accordion {
