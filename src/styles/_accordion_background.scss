@@ -2,32 +2,8 @@
 	position: relative;
 	@include flex(column, center, center);
 
-	&-hero {
-		position: absolute;
-		top: 0;
-		left: -26px;
-		transform: translateY(-55%);
-
-		@include breakpoint-up(large) {
-			content: url("../images/illustration-woman-online-desktop.svg");
-			top: 50%;
-			left: -20%;
-			transform: translateY(-50%);
-		}
-	}
-
-	&-blur {
-		@include breakpoint-up(large) {
-			position: absolute;
-			content: url("../images/illustration-box-desktop.svg");
-			top: 60%;
-			left: -20%;
-			transform: translateY(-50%);
-		}
-	}
-
 	@include breakpoint-up(large) {
-		position: absolute;
+        position: absolute;
 		top: 0;
 		left: 0;
 		width: 50%;
@@ -35,6 +11,40 @@
 		height: 100%;
 		background-image: url("../images/bg-pattern-desktop.svg");
 		background-repeat: no-repeat;
-		background-position: bottom 31% right -11%;
+		background-position: bottom 31% right -15%;
+
+        &-top{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+        }
 	}
+
+    &-hero {
+        position: absolute;
+        top: 0;
+        left: -26px;
+        transform: translateY(-55%);
+    
+        @include breakpoint-up(large) {
+            position: relative;
+            content: url("../images/illustration-woman-online-desktop.svg");
+            top: 50%;
+            left: -20%;
+            transform: translateY(-50%);
+        }
+    }
+    
+    &-blur {
+        @include breakpoint-up(large) {
+            position: absolute;
+            content: url("../images/illustration-box-desktop.svg");
+            top: 60%;
+            left: -20%;
+            transform: translateY(-50%);
+        }
+    }
 }

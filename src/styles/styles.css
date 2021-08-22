@@ -59,9 +59,9 @@ p {
   }
 }
 
-@media (min-width: 87.5em) {
+@media (min-width: 48em) {
   #root {
-    padding: 8.0625rem 0;
+    padding: 9.0625rem 0 8.0625rem;
   }
 }
 
@@ -105,7 +105,7 @@ p {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    width: 100%;
+    width: 90%;
     max-width: 920px;
     min-height: 509px;
     padding: 0;
@@ -129,6 +129,28 @@ p {
           justify-content: center;
 }
 
+@media (min-width: 64em) {
+  .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    min-height: inherit;
+    height: 100%;
+    background-image: url("../images/bg-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: bottom 31% right -15%;
+  }
+  .bg-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
 .bg-hero {
   position: absolute;
   top: 0;
@@ -139,6 +161,7 @@ p {
 
 @media (min-width: 64em) {
   .bg-hero {
+    position: relative;
     content: url("../images/illustration-woman-online-desktop.svg");
     top: 50%;
     left: -20%;
@@ -155,20 +178,6 @@ p {
     left: -20%;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
-  }
-}
-
-@media (min-width: 64em) {
-  .bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    min-height: inherit;
-    height: 100%;
-    background-image: url("../images/bg-pattern-desktop.svg");
-    background-repeat: no-repeat;
-    background-position: bottom 31% right -11%;
   }
 }
 

@@ -39,8 +39,8 @@ p {
 		padding: 9.25rem 0 5.135rem;
 	}
 
-	@include breakpoint-up(xlarge) {
-		padding: 8.0625rem 0;
+	@include breakpoint-up(medium) {
+		padding: 9.0625rem 0 8.0625rem;
 	}
 }
 
@@ -57,7 +57,7 @@ p {
 
 	@include breakpoint-up(large) {
 		@include flex(row, center, flex-end);
-		width: 100%;
+		width: 90%;
 		max-width: 920px;
 		min-height: 509px;
 		padding: 0;
