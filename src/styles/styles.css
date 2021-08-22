@@ -65,6 +65,12 @@ p {
   }
 }
 
+@media (min-width: 64em) {
+  #root {
+    padding: 0 0 0 0;
+  }
+}
+
 .accordion {
   position: relative;
   display: -webkit-box;

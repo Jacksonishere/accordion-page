@@ -12,9 +12,8 @@ Users should be able to:
 
 ### Screenshot
 
-![image](https://user-images.githubusercontent.com/44249712/130335250-9c755b34-ace0-47c0-9cdc-64d6a9ce9ad8.png)
-
-![image](https://user-images.githubusercontent.com/44249712/130335268-eebb4278-f0ea-4e84-87b8-cc8cd852411e.png)
+![image](https://user-images.githubusercontent.com/44249712/130339641-8404fb9f-8a85-408c-967e-a717e9ac8702.png)
+![image](https://user-images.githubusercontent.com/44249712/130339643-bfe86833-0a2a-4969-ac43-ae25eba3f75f.png)
 
 
 ### Links
